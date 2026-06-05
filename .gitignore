@@ -1,0 +1,114 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment Variables
+.env
+.env.*
+
+# Model Files
+*.pkl
+*.joblib
+*.h5
+*.sav
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Coverage Reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Data Files (Optional)
+data/processed_data.csv
+data/temp/
+
+# Reports
+reports/*.pdf
+reports/*.csv
+
+# Images Generated During Runtime
+outputs/
+results/
+charts/
+
+# Cache
+.cache/
+__pycache__/
+
+# Database Files
+*.db
+*.sqlite3
+
+# Streamlit Cache
+.streamlit/cache/
+
+# Mac Files
+.AppleDouble
+.LSOverride
+
+# Windows Files
+ehthumbs.db
+Desktop.ini
+
+# Backup Files
+*.bak
+*.swp
+*.swo
+*~
+
+# TensorFlow / PyTorch
+checkpoints/
+runs/
+wandb/
+
+# XGBoost Models
+xgboost_model.json
+
+# Large Data Files
+*.zip
+*.rar
+*.7z
+
+# Ignore trained models
+models/*.pkl
+models/*.joblib
+
+# Ignore generated reports
+reports/anomaly_report.csv
+reports/model_evaluation.csv
+reports/root_cause_report.pdf
